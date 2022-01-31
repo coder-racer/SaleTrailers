@@ -1,0 +1,109 @@
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-family: "Petra Sans", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 43px;
+
+  color: $text-color;
+}
+
+.item {
+  .title {
+    text-align: center;
+  }
+
+  padding: 50px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  justify-content: center;
+  width: 100%;
+}
+
+.banner {
+  padding: 150px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5em;
+  flex-direction: row;
+
+  .text {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: start;
+
+    h1 {
+      font-family: "Petra Sans", sans-serif;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 60px;
+      line-height: 72px;
+      color: $accent-color;
+    }
+
+    p {
+      font-family: "Petra Sans", sans-serif;
+      color: $text-color;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 22px;
+      line-height: 26px;
+    }
+  }
+}
+
+.items {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 45px;
+}
+
+form {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+
+  div {
+    flex-grow: 1;
+    width: calc(100% - 15px);
+
+    input {
+      width: 100%;
+      border: none;
+      background: $additional-background-color;
+      padding: 14px 24px;
+      font-family: "Petra Sans", sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 30px;
+      line-height: 35px;
+      color: #484848;
+    }
+
+    button {
+      font-family: "Petra Sans", sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 30px;
+      line-height: 35px;
+
+      width: 100%;
+    }
+  }
+}
+.maps{
+  height: 400px;
+}

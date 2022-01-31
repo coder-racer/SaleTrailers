@@ -1,0 +1,306 @@
+@media(max-width: 1440px) {
+
+  .container {
+    max-width: calc(1440px);
+  }
+  .wrap {
+    max-width: 1350px;
+    margin: 0 auto;
+  }
+  .main-menu {
+    ul {
+      li {
+        a {
+          font-size: 17px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1390px) {
+  .container {
+    max-width: calc(1390px);
+  }
+  .wrap {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+
+  header {
+    .up-menu {
+      padding: 0 0 0 35px;
+    }
+
+    .down-menu {
+      padding: 9px 35px;
+    }
+  }
+
+  button {
+    padding: 10px 22px;
+    font-size: 15px;
+  }
+
+  .contact {
+    .phone-list {
+      .phone-item {
+        .phone {
+          font-size: 12px;
+        }
+      }
+    }
+  }
+  .icon-search {
+    width: 20px;
+    height: 20px;
+    background-size: cover;
+  }
+  .icon-basket {
+    width: 22px;
+    height: 20px;
+  }
+  .icon-phone {
+    width: 13px;
+    height: 13px;
+  }
+  .icon-whatsapp {
+    width: 22px;
+    height: 22px;
+  }
+  .icon-mail {
+    width: 22px;
+    height: 22px;
+  }
+  .icon-kmz {
+    height: 55px;
+  }
+  .icon-sst {
+    height: 55px;
+  }
+  .main-menu {
+    ul {
+      li {
+        a {
+          font-size: 15px;
+        }
+      }
+    }
+  }
+  .title {
+    font-size: 24px;
+    line-height: 28px;
+  }
+  .item {
+    padding: 33px 0;
+    gap: 33px;
+  }
+  .banner {
+    padding: 100px 0;
+
+    .text {
+      gap: 15px;
+
+      h1 {
+        font-size: 40px;
+        line-height: 48px;
+      }
+
+      p {
+        font-size: 14px;
+        line-height: 17px;
+      }
+    }
+
+    img {
+      width: 40%;
+    }
+  }
+
+  .items {
+    gap: 30px;
+  }
+
+  .shop-item {
+    max-width: 2300px;
+    box-shadow: 0px 0px 16px 2px rgba(129, 135, 189, 0.25);
+    border-radius: 10px;
+    padding: 16px;
+    gap: 6px;
+
+    img {
+      height: 185px;
+      width: 185px;
+    }
+
+    h3 {
+      font-size: 14px;
+      line-height: 18px;
+    }
+
+    .size {
+      img {
+        width: 14px;
+        height: 16px;
+      }
+
+      p {
+        font-size: 14px;
+        line-height: 16px;
+      }
+    }
+
+    .price {
+      font-size: 18px;
+      line-height: 20px;
+    }
+  }
+
+  .provider-item {
+    box-shadow: 0px 0px 16px 2px rgba(129, 135, 189, 0.25);
+    border-radius: 10px;
+    max-width: 190px;
+    padding: 16px;
+
+    img {
+      height: 155px;
+      width: 155px;
+    }
+
+    h3 {
+      font-size: 20px;
+      line-height: 24px;
+    }
+  }
+  form {
+    gap: 20px;
+
+    div {
+      input {
+        padding: 9px 16px;
+        font-size: 20px;
+        line-height: 23px;
+      }
+
+      button {
+        font-size: 20px;
+        line-height: 23px;
+      }
+    }
+  }
+
+}
+
+@media (max-width: 1024px) { //burger
+  .container {
+    max-width: calc(1024px);
+  }
+  .wrap {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  .main-menu {
+    ul {
+      li {
+        a {
+          font-size: 12px;
+        }
+      }
+    }
+  }
+  .icon-kmz {
+    width: 67px;
+    height: 33px;
+  }
+  .icon-sst {
+    width: 35px;
+    height: 35px;
+  }
+
+
+}
+
+@media (max-width: 900px) { //burger
+  .container {
+    max-width: calc(900px);
+  }
+  .wrap {
+    max-width: 800px;
+  }
+  .main-menu {
+    display: none;
+  }
+  .search {
+    display: none !important;
+  }
+  footer {
+    justify-content: center;
+  }
+  .burger_icon {
+    display: flex!important;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: calc(768px);
+  }
+  .wrap {
+    max-width: 660px;
+  }
+  .banner{
+    flex-direction: column-reverse;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    img{
+        width: 70%;
+    }
+    .text{
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  form{
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    max-width: calc(480px);
+  }
+  .wrap {
+    max-width: 380px;
+  }
+  header{
+    .contact{
+      display: none;
+
+    }
+    .call {
+      width: 100%;
+      button {
+        width: 100%!important;
+
+      }
+    }
+    .up-menu {
+      padding: 0;
+    }
+  }
+  footer{
+    .contact{
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      .phone-list{
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+      }
+    }
+  }
+
+}

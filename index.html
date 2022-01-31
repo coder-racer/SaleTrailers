@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Nav</title>
+    <link rel="stylesheet" type="text/css" href="css/style.min.css">
+    <script src="js/burger.js"></script>
+</head>
+<body>
+<header class="container">
+    <div class="up-menu">
+        <div class="contact">
+            <div class="phone-list">
+                <div class="phone-item">
+                    <div class="icon-phone"></div>
+                    <div class="phone">8 777 708 11 22</div>
+                </div>
+                <div class="phone-item">
+                    <div class="icon-phone"></div>
+                    <div class="phone">8 777 708 11 22</div>
+                </div>
+            </div>
+            <div class="social">
+                <div class="icon-whatsapp"></div>
+                <div class="icon-mail"></div>
+            </div>
+        </div>
+        <div class="call">
+            <button>Заказать звонок</button>
+        </div>
+    </div>
+    <div class="down-menu">
+        <div class="logo">
+            <div class="icon-sst"></div>
+            <div class="icon-kmz"></div>
+        </div>
+        <nav class="main-menu">
+            <ul>
+                <li><a href="">Каталог Автоприцепов</a></li>
+                <li><a href="">Каталог Автозапчастей</a></li>
+                <li><a href="">Поставщики</a></li>
+                <li><a href="">Оплата и вывоз</a></li>
+                <li><a href="">Контакты</a></li>
+            </ul>
+        </nav>
+        <nav class="mobile_menu">
+            <div onclick="burger_click()" class="burger_icon">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="burger_menu">
+                <li><a href="">Каталог Автоприцепов</a></li>
+                <li><a href="">Каталог Автозапчастей</a></li>
+                <li><a href="">Поставщики</a></li>
+                <li><a href="">Оплата и вывоз</a></li>
+                <li><a href="">Контакты</a></li>
+            </ul>
+        </nav>
+        <div class="search">
+            <div class="icon-search"></div>
+            <div class="icon-basket"></div>
+        </div>
+    </div>
+</header>
+
+<main class="container">
+    <section class="banner wrap">
+        <div class="text">
+            <h1>Автоприцепы в<br> Усть-Каменогорске</h1>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                industry's standard dummy text ever since the 1500</p>
+            <button>Перейти в каталог</button>
+        </div>
+        <img src="img/banner.jpg" alt="" class="img">
+    </section>
+    <section class="wrap item">
+        <h2 class="title">Популярное</h2>
+        <div class="items">
+            <div class="shop-item">
+                <img src="img/test-item.png"/>
+                <h3 class="name">Автоприцеп 111400 Евро</h3>
+                <div class="size">
+                    <img src="img/icon/size.png">
+                    <p>2000*1250*500 мм</p>
+                </div>
+                <p class="price">180 000 тг.</p>
+            </div>
+            <div class="shop-item">
+                <img src="img/test-item.png"/>
+                <h3 class="name">Автоприцеп 111400 Евро</h3>
+                <div class="size">
+                    <img src="img/icon/size.png">
+                    <p>2000*1250*500 мм</p>
+                </div>
+                <p class="price">180 000 тг.</p>
+            </div>
+            <div class="shop-item">
+                <img src="img/test-item.png"/>
+                <h3 class="name">Автоприцеп 111400 Евро</h3>
+                <div class="size">
+                    <img src="img/icon/size.png">
+                    <p>2000*1250*500 мм</p>
+                </div>
+                <p class="price">180 000 тг.</p>
+            </div>
+            <div class="shop-item">
+                <img src="img/test-item.png"/>
+                <h3 class="name">Автоприцеп 111400 Евро</h3>
+                <div class="size">
+                    <img src="img/icon/size.png">
+                    <p>2000*1250*500 мм</p>
+                </div>
+                <p class="price">180 000 тг.</p>
+            </div>
+        </div>
+    </section>
+    <section class="wrap item">
+        <h2 class="title">Поставщики</h2>
+        <div class="items">
+            <div class="provider-item">
+                <img src="img/sst.png"/>
+                <h3 class="name">КМЗ</h3>
+            </div>
+            <div class="provider-item">
+                <img src="img/kmz.png"/>
+                <h3 class="name">КМЗ</h3>
+            </div>
+            <div class="provider-item">
+                <img src="img/icon/parts.png"/>
+                <h3 class="name">Запчасти</h3>
+            </div>
+            <div class="provider-item">
+                <img src="img/icon/all.png"/>
+                <h3 class="name">Все прицепы</h3>
+            </div>
+        </div>
+    </section>
+    <section class="wrap item">
+        <h2 class="title">Заказать звонок</h2>
+        <form>
+            <div>
+                <input type="text" placeholder="Ваше имя">
+            </div>
+            <div>
+                <input type="text" placeholder="Телефон">
+            </div>
+            <div>
+            <button>Заказать звонок</button>
+            </div>
+        </form>
+    </section>
+    <section class="wrap item">
+        <h2 class="title">Где нас найти</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4987.749324245981!2d82.61596461712841!3d49.95602635050783!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x42eb45f06798cebd%3A0x85c0663e5f8fb1d8!2z0JTQstC-0YDQtdGGINGB0L_QvtGA0YLQsCDQuNC80LXQvdC4INCR0L7RgNC40YHQsCDQkNC70LXQutGB0LDQvdC00YDQvtCy0LA!5e0!3m2!1sru!2skz!4v1643652176059!5m2!1sru!2skz" height="500" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </section>
+</main>
+
+<footer class="container">
+    <div class="contact">
+        <div class="phone-list">
+            <div class="phone-item">
+                <div class="icon-phone"></div>
+                <div class="phone">8 777 708 11 22</div>
+            </div>
+            <div class="phone-item">
+                <div class="icon-phone"></div>
+                <div class="phone">8 777 708 11 22</div>
+            </div>
+        </div>
+        <div class="social">
+            <div class="icon-whatsapp"></div>
+            <div class="icon-mail"></div>
+        </div>
+    </div>
+    <nav class="main-menu">
+        <ul>
+            <li><a href="">Каталог Автоприцепов</a></li>
+            <li><a href="">Каталог Автозапчастей</a></li>
+            <li><a href="">Поставщики</a></li>
+            <li><a href="">Оплата и вывоз</a></li>
+            <li><a href="">Контакты</a></li>
+        </ul>
+    </nav>
+</footer>
+</body>
+</html>
