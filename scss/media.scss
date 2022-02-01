@@ -304,6 +304,18 @@
         }
 
       }
+      .social {
+        width: 100%;
+        justify-content: space-evenly;
+        .icon-whatsapp {
+          width: 40px;
+          height: 40px;
+        }
+        .icon-mail {
+          width: 40px;
+          height: 40px;
+        }
+      }
     }
   }
   .banner {
