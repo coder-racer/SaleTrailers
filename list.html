@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Nav</title>
+    <link rel="stylesheet" type="text/css" href="css/style.min.css">
+    <link rel="stylesheet" type="text/css" href="css/order-list.min.css">
+    <script src="js/burger.js"></script>
+</head>
+<body>
+<header class="container">
+    <div class="up-menu">
+        <div class="contact">
+            <div class="phone-list">
+                <div class="phone-item">
+                    <div class="icon-phone"></div>
+                    <div class="phone">8 777 708 11 22</div>
+                </div>
+                <div class="phone-item">
+                    <div class="icon-phone"></div>
+                    <div class="phone">8 777 708 11 22</div>
+                </div>
+            </div>
+            <div class="social">
+                <div class="icon-whatsapp"></div>
+                <div class="icon-mail"></div>
+            </div>
+        </div>
+        <div class="call">
+            <button>Заказать звонок</button>
+        </div>
+    </div>
+    <div class="down-menu">
+        <div class="logo">
+            <div class="icon-sst"></div>
+            <div class="icon-kmz"></div>
+        </div>
+        <nav class="main-menu">
+            <ul>
+                <li><a href="">Каталог Автоприцепов</a></li>
+                <li><a href="">Каталог Автозапчастей</a></li>
+                <li><a href="">Поставщики</a></li>
+                <li><a href="">Оплата и вывоз</a></li>
+                <li><a href="">Контакты</a></li>
+            </ul>
+        </nav>
+        <nav class="mobile_menu">
+            <div onclick="burger_click()" class="burger_icon">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="burger_menu">
+                <li><a href="">Каталог Автоприцепов</a></li>
+                <li><a href="">Каталог Автозапчастей</a></li>
+                <li><a href="">Поставщики</a></li>
+                <li><a href="">Оплата и вывоз</a></li>
+                <li><a href="">Контакты</a></li>
+            </ul>
+        </nav>
+        <div class="search">
+            <div class="icon-search"></div>
+            <div class="icon-basket"></div>
+        </div>
+    </div>
+</header>
+
+<main class="container">
+    <section class="item order-object">
+        <div class="order-list">
+            <div class="order-list-block">
+                <div class="settings">
+                    <h2 class="title">Прицепы</h2>
+                    <div class="settings-list">
+                        <select name="hero[]">
+                            <option selected value="Чебурашка">Сначало дешевые</option>
+                            <option value="Крокодил Гена">Сначало дорогие</option>
+                        </select>
+                        <select name="hero[]">
+                            <option selected value="Чебурашка">Прицепы</option>
+                            <option value="Крокодил Гена">Запчасти</option>
+                        </select>
+                        <button class="filter-on" onclick="onFilter()">
+                            Фильтры
+                        </button>
+                    </div>
+                </div>
+                <div class="order-items">
+                    <div class="shop-item">
+                        <img src="img/test-item.png"/>
+                        <h3 class="name">Автоприцеп 111400 Евро</h3>
+                        <div class="size">
+                            <img src="img/icon/size.png">
+                            <p>2000*1250*500 мм</p>
+                        </div>
+                        <p class="price">180 000 тг.</p>
+                    </div>
+                    <div class="shop-item">
+                        <img src="img/test-item.png"/>
+                        <h3 class="name">Автоприцеп 111400 Евро</h3>
+                        <div class="size">
+                            <img src="img/icon/size.png">
+                            <p>2000*1250*500 мм</p>
+                        </div>
+                        <p class="price">180 000 тг.</p>
+                    </div>
+                    <div class="shop-item">
+                        <img src="img/test-item.png"/>
+                        <h3 class="name">Автоприцеп 111400 Евро</h3>
+                        <div class="size">
+                            <img src="img/icon/size.png">
+                            <p>2000*1250*500 мм</p>
+                        </div>
+                        <p class="price">180 000 тг.</p>
+                    </div>
+                    <div class="shop-item">
+                        <img src="img/test-item.png"/>
+                        <h3 class="name">Автоприцеп 111400 Евро</h3>
+                        <div class="size">
+                            <img src="img/icon/size.png">
+                            <p>2000*1250*500 мм</p>
+                        </div>
+                        <p class="price">180 000 тг.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="order-filter">
+            <div onclick="onFilter()" class="close">
+
+            </div>
+            <div class="items">
+                <h5>Поставщик</h5>
+
+                <div class="filter-item">
+                    <input type="checkbox" id="scales1" name="scales"
+                           checked>
+                    <label for="scales1">СаранскСпецТехника</label>
+                </div>
+                <div class="filter-item">
+                    <input type="checkbox" id="scales2" name="scales"
+                           checked>
+                    <label for="scales2">СаранскСпецТехника</label>
+                </div>
+                <div class="filter-item">
+                    <input type="checkbox" id="scales3" name="scales"
+                           checked>
+                    <label for="scales3">СаранскСпецТехника</label>
+                </div>
+                <hr>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer class="container">
+    <div class="contact">
+        <div class="phone-list">
+            <div class="phone-item">
+                <div class="icon-phone"></div>
+                <div class="phone">8 777 708 11 22</div>
+            </div>
+            <div class="phone-item">
+                <div class="icon-phone"></div>
+                <div class="phone">8 777 708 11 22</div>
+            </div>
+        </div>
+        <div class="social">
+            <div class="icon-whatsapp"></div>
+            <div class="icon-mail"></div>
+        </div>
+    </div>
+    <nav class="main-menu">
+        <ul>
+            <li><a href="">Каталог Автоприцепов</a></li>
+            <li><a href="">Каталог Автозапчастей</a></li>
+            <li><a href="">Поставщики</a></li>
+            <li><a href="">Оплата и вывоз</a></li>
+            <li><a href="">Контакты</a></li>
+        </ul>
+    </nav>
+</footer>
+</body>
+</html>
