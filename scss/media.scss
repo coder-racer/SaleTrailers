@@ -276,7 +276,6 @@
   header{
     .contact{
       display: none;
-
     }
     .call {
       width: 100%;
@@ -298,9 +297,18 @@
         justify-content: center;
         align-items: center;
         flex-direction: column;
+        .phone-item {
+          .phone {
+            font-size: 26px;
+          }
+        }
 
       }
     }
+  }
+  .banner {
+    padding: 40px 0;
+    gap: 40px;
   }
 
 }
