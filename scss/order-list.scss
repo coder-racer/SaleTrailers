@@ -115,7 +115,17 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-
+        .settings-list {
+          display: flex;
+          flex-wrap: wrap;
+          flex-direction: column;
+          gap: 3rem;
+          justify-content: center;
+          align-items: center;
+          .filter-on {
+            display: none;
+          }
+        }
         .filter-on {
           display: block !important;
         }
