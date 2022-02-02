@@ -26,6 +26,7 @@
           flex-wrap: wrap;
           flex-direction: row;
           gap: 3rem;
+
           .filter-on {
             display: none;
           }
@@ -115,6 +116,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+
         .settings-list {
           display: flex;
           flex-wrap: wrap;
@@ -122,10 +124,12 @@
           gap: 3rem;
           justify-content: center;
           align-items: center;
+
           .filter-on {
             display: none;
           }
         }
+
         .filter-on {
           display: block !important;
         }
@@ -166,6 +170,27 @@
         justify-content: center;
         flex-direction: column;
         align-items: center;
+      }
+    }
+  }
+}
+
+@media (max-width: 645px) {
+  .order-list {
+    max-width: 98vw !important;
+
+    .order-items {
+      gap: 2vw !important;
+      row-gap: 2vw !important;
+
+
+      .shop-item {
+        max-width: 175px !important;
+
+        img {
+          max-width: 90%;
+          object-fit: contain;
+        }
       }
     }
   }
